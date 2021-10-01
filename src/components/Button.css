@@ -1,0 +1,9 @@
+.btn-next{
+  background-color: rgb(229, 90, 89);
+  border-color:rgb(229, 90, 89);
+  border-radius: 10px;
+  color:white;
+  font-weight:700;
+  height:60px;
+  padding: 1em;
+}

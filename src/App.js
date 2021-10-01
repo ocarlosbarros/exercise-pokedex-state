@@ -1,14 +1,17 @@
+import React, { Component } from 'react';
 import './App.css';
-import React from 'react';
-import Pokedex from './Pokedex';
+import Footer from './components/Footer';
 
+import Pokedex from './components/Pokedex';
 
-function App() {
-  return (
-    <div>
-     <Pokedex />
-    </div>
-  );
+class  App extends Component {
+  render(){
+    return (
+    <main className="App">
+      <Pokedex />
+      <Footer />
+    </main>
+    );
+  }
 }
-
 export default App;
