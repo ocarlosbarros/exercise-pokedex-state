@@ -1,9 +1,53 @@
-.btn-next{
-  background-color: rgb(229, 90, 89);
-  border-color:rgb(229, 90, 89);
+button{
   border-radius: 10px;
-  color:white;
+  color:black;
   font-weight:700;
   height:60px;
+  margin:1em;
   padding: 1em;
+}
+
+.all{
+  background-color:white;
+  border-color:white;
+}
+
+.eletric{
+  background-color: rgb(238, 213, 53);
+  border-color: rgb(238, 213, 53);
+}
+
+.fire{
+background-color:rgb(242, 124, 48);
+border-color:rgb(242, 124, 48)
+}
+
+.bug{
+  background-color:rgb(114, 159, 63) ;
+  border-color: rgb(114, 159, 63);
+}
+
+.poison{
+  background-color: rgb(185,127, 201);
+  border-color: rgb(185,127, 201);
+}
+
+.psychic{
+  background-color:rgb(237, 101, 185) ;
+  border-color:rgb(237, 101, 185);
+}
+
+.normal{
+  background-color: rgb(164,172, 175);
+  border-color: rgb(164,172, 175);
+}
+
+.dragon{
+  background-color: rgb(83, 164, 207);
+  border-color: rgb(83, 164, 207);
+}
+
+.btn-next {
+  background-color: rgb(229, 90, 89);
+  border-color:rgb(229, 90, 89);
 }
